@@ -1,0 +1,42 @@
+.content {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+input {
+    background-color: transparent;
+    width: 80%;
+    height: 24px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    border: 1px solid #999999;
+    color: #999999;
+}
+
+button {
+    width: 16%;
+    height: 24px;
+    border: 1px solid #999999;
+    background-color: #2D333B;
+    border-radius: 12px;
+    color: #999999;
+    margin-left: 8px;
+}
