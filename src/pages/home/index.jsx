@@ -3,6 +3,7 @@ import { Header } from '../../components/Header'
 import background from '../../assets/background.png'
 import './styles.css'
 import Card from '../../components/Card';
+import ItemList from '../../components/ItemList';
 
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
             <button>Buscar</button>'
           </div>
           <Card user="Christopher Barros" username="@chrisbarros" description="Desenvolvedor Front-end" />
+          <h4>Repositórios</h4>
+          <ItemList title="fisiotheapp-challenge" description="Full Stack Developer web and mobile, passionate to javascript and all your ecosystem." />
+          <ItemList title="fisiotheapp-challenge" description="Full Stack Developer web and mobile, passionate to javascript and all your ecosystem." />
+          <ItemList title="fisiotheapp-challenge" description="Full Stack Developer web and mobile, passionate to javascript and all your ecosystem." />
         </div>
       </div>
     </div>

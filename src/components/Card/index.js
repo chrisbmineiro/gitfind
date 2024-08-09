@@ -10,6 +10,7 @@ const Card = ({ user, username, description }) => {
                 <p>{description}</p>
             </div>
         </div>
+        <hr style={{ marginTop: '20px'}} />
     </>
     );
 }

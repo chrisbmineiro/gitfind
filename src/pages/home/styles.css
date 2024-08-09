@@ -40,3 +40,11 @@ button {
     color: #999999;
     margin-left: 8px;
 }
+
+h4 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
